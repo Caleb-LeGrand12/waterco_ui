@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "preact build",
-    "start": "http-server build/",
+    "start": "node index.js",
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest"
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
+    "express": "*",
     "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1"
