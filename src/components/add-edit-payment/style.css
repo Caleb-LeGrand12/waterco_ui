@@ -1,0 +1,17 @@
+.submitBtn{
+    margin-top: 60px;
+    padding: 10px;
+    width: 100%;
+}
+.textfieldInput{
+    margin: 10px 4px;
+}
+
+.dialogHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heightSpacing{
+    height: 14px;
+}
